@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Wayback Machine",
+  "description": "Immediately navigate to wayback machine",
+  "version": "0.1",
+  "author": "Mathias Yde",
+  "permissions": [
+    "tabs"
+  ],
+	"action": {
+    "default_title": "Search this URL on Wayback Machine"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
